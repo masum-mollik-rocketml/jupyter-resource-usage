@@ -204,7 +204,7 @@ const kernelUsagePlugin: JupyterFrontEndPlugin<void> = {
           tracker,
           trans,
         });
-        shell.add(panel, 'right', { rank: 200 });
+        // shell.add(panel, 'right', { rank: 200 });
       }
     }
 
